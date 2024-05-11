@@ -83,7 +83,7 @@ const Header = (props) => {
                   <Link>정보 등록</Link>
                   <ul>
                       <li>
-                        <Link to="/">전통시장</Link>
+                        <Link to="/RegistMenu">전통시장</Link>
                       </li>
                       <li>
                         <Link to="/">지역축제</Link>

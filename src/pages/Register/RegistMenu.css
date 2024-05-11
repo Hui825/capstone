@@ -1,0 +1,25 @@
+body {
+    font-family: 'SUITE';
+}
+
+.title {
+    text-align: center;
+    background-color: rgb(167, 167, 255);
+    width: 1000px;
+    height: 30px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 30px;
+}
+
+.mainbox {
+    
+    margin-left: 450px;
+    margin-right: 450px;
+    width: 1000px;
+    height: 800px;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 30px;
+
+}

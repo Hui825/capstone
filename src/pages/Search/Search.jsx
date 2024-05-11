@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Main from '../../components/page/Main'
 
+import '../../data/festival.js';
 
 
-import VideoSearch from '../../components/video/VideoSearch'
+
+/*import VideoSearch from '../../components/video/VideoSearch'
 import { fetchFromAPI } from '../../utils/api'
 
 const Search = () => {
@@ -63,4 +65,4 @@ const Search = () => {
     )
 }
 
-export default Search;
+export default Search;*/

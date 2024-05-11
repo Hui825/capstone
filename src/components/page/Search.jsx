@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Search = () => {
-    const [ LoginForm, setLoginForm ] = useState('');
+    const [ searchKeyword, setSearchKeyword ] = useState('');
     const navigate = useNavigate();
 
     const handleSearch = () => {
-        console.log(LoginForm);
-        if(LoginForm){
-            navigate(`/search/${LoginForm}`);
-            setLoginForm('');
+        console.log(searchKeyword);
+        if(searchKeyword){
+            navigate(`/search/${searchKeyword}`);
+            setSearchKeyword('');
         }
     }
 
@@ -23,7 +23,7 @@ const Search = () => {
                     autoComplete='off'
                     className='search__input'
                     placeholder='정보를 검색해주세요!'
-                    onChange={e => setLoginForm(e.target.value)}
+                    onChange={e => setSearchKeyword(e.target.value)}
                     onKeyDown={e => {
                         if(e.key === 'Enter'){
                             handleSearch();
