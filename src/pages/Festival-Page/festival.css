@@ -8,11 +8,19 @@
 }
 
 .headerText {
-    font-size:30px;
+    font-size:25px;
     background-color: rgb(250, 201, 111);
     font-style: normal;
     text-align: center;
 }
+
+
+.Text {
+    font-size: 18px;
+    text-align: right;
+    background-color: rgb(250, 201, 111);
+}
+
 
 .InnerText {
     background-color: rgb(160, 198, 255);
@@ -24,7 +32,7 @@
 .section_fes {
     display: inline-block;
     background-color:rgb(129, 130, 133);
-    inline-size: 800px;
+    inline-size: 480px;
     justify-content: space-between;
     margin-inline-start: 75px;
     margin-inline-end: 30px;
@@ -52,6 +60,14 @@
     margin-left: 50px;
     margin-right: 20px;
     
+}
+
+.section__data2 {
+
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aquamarine;
 }
 
 .title {

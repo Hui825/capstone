@@ -8,6 +8,7 @@ const Website = lazy(() => import('./pages/Mypage'));
 
 const Festival = lazy(() => import('./pages/Festival-Page/festival.js'));
 
+const TestPage = lazy(() => import('./pages/TestPage/Test'))
 
 
 const Market = lazy(() => import('./pages/Market Page/market.js'));
@@ -31,6 +32,7 @@ const App = () => {
                     <Route path="/RegistMenu" element={<RegistMenu />} />
                     <Route path='/search/:searchId' element={<Search />} />
                     <Route path="/LoginForm" element={<LoginForm />} />
+                    <Route path="/TestPage" element={<TestPage />} />
                     <Route path="*" element={<Not />} />
                 </Routes>
             </Suspense>
