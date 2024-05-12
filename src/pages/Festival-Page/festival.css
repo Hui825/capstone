@@ -21,6 +21,28 @@
     text-align: center;
 }
 
+.section_fes {
+    display: inline-block;
+    background-color:rgb(129, 130, 133);
+    inline-size: 800px;
+    justify-content: space-between;
+    margin-inline-start: 75px;
+    margin-inline-end: 30px;
+    margin-bottom: 30px;
+}
+
+.header_fes {
+    display: inline-block;
+    position: left;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    background: #fff;
+    height: 20px;
+    justify-content: center;
+    margin-right: 28px;
+}
+
 .section__data {
 
     display: inline-block;
@@ -42,3 +64,4 @@
     background-color: rgb(206, 206, 206);
     border-radius: 60px;
 }
+
